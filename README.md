@@ -1,27 +1,29 @@
-## ✨S_Mario Features
+## 🛠️ Installation & How to Play
 
-* **Multi-Input Support:** Fully compatible with **Keyboard**, **Touch Screen**, and **Game Controllers / Gamepads**!
-* **Choose Your Hero:** Pick from 4 different color variants — **Red**, **Green**, **Gold**, and **Azure**!
-* **High Score Tracker:** Challenge yourself and beat your previous best scores.
-* **Modern UI Installer:** Comes with a beautiful, sleek *Modern Zircon* theme installer for hassle-free installation.
-* **No Console Popup:** Pure gaming experience with no ugly background command prompts.
+Choose the version that suits you best:
 
----
+### Option 1: Quick Install (Recommended for General Players)
+1. Go to the **Releases** section on the right.
+2. Download the latest `S_Mario_Setup.exe`.
+3. Run the premium *Zircon UI* installer and launch the game from your desktop shortcut!
 
-## 🎮 Game Controls
+### Option 2: Portable Version (No Installation Required)
+1. Download the `S_Mario_Portable.zip` from the Releases.
+2. Extract (unzip) the folder anywhere on your PC.
+3. Double-click `S_Merio.exe` inside the folder to start playing instantly!
 
-Choose your preferred way to play the adventure:
+### Option 3: Run from Source / Raw Files (For Developers)
+If you want to modify or run the raw Python source code, make sure you have Python 3.14+ and Pygame-ce installed:
 
-### ⌨️ Keyboard Controls
-| Action | Key / Control |
-| :--- | :--- |
-| **Move Left / Right** | `<-` / `->` (Arrow Keys) |
-| **Jump / Confirm Hero** | `Spacebar` |
-| **Adjust Volume** | `+` (Up) / `-` (Down) |
-| **Mute Audio** | `M` |
-| **Toggle Fullscreen** | `F11` |
+```bash
+# Clone the repository
+git clone [https://github.com/YOUR_GITHUB_USERNAME/s-mario.git](https://github.com/YOUR_GITHUB_USERNAME/s-mario.git)
 
-### 🎮 Controller & 📱 Touch Support
-* **Gamepad / Joystick:** Plug and play with standard USB controllers (D-pad/Analog Stick for movement, Jump button mapped perfectly).
-* **Touch Controls:** On-screen touch mechanics for laptops with touch screens or windows tablets!
-*
+# Go into the project directory
+cd "s-mario"
+
+# Install dependencies
+pip install pygame-ce
+
+# Run the game using raw files
+python S_Merio.py
