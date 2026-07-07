@@ -1,4 +1,4 @@
-## ✨ Features
+## ✨S_Mario Features
 
 * **Multi-Input Support:** Fully compatible with **Keyboard**, **Touch Screen**, and **Game Controllers / Gamepads**!
 * **Choose Your Hero:** Pick from 4 different color variants — **Red**, **Green**, **Gold**, and **Azure**!
